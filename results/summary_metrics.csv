@@ -1,0 +1,9 @@
+Race,Model,AUC,TPR@Thresh,FPR@Thresh,Accuracy@Thresh,Threshold,N_pairs,N_genuine,N_impostor
+African,ArcFace_buffalo_m,0.9858,0.9619,0.0154,0.9738,0.3133,496,236,260
+Asian,ArcFace_buffalo_m,0.9636,0.9234,0.0075,0.9583,0.3133,527,261,266
+Caucasian,ArcFace_buffalo_m,0.9905,0.9679,0.0,0.9845,0.3133,517,249,268
+Indian,ArcFace_buffalo_m,0.9909,0.965,0.011,0.9773,0.3133,529,257,272
+African,AdaFace_WebFace4M,0.9834,0.9492,0.0231,0.9637,0.3259,496,236,260
+Asian,AdaFace_WebFace4M,0.9595,0.908,0.0113,0.9488,0.3259,527,261,266
+Caucasian,AdaFace_WebFace4M,0.9906,0.9558,0.0,0.9787,0.3259,517,249,268
+Indian,AdaFace_WebFace4M,0.9882,0.9572,0.0037,0.9773,0.3259,529,257,272
