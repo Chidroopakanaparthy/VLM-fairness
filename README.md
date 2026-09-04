@@ -4,7 +4,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![HuggingFace Datasets](https://img.shields.io/badge/🤗%20Datasets-vlm--fairness-orange)](https://huggingface.co/datasets/chidroopakanaparthy/vlm-fairness-outputs)
 
-> **Status:** Under review — AI4GOOD Workshop @ NeurIPS 2025 / VLM4RWD Workshop @ ECCV 2025
+> **Status:** Under review — AI4GOOD Workshop @ NeurIPS 2026 / VLM4RWD Workshop @ NeurIPS 2026
 
 ---
 
