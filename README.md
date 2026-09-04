@@ -174,8 +174,8 @@ If you use this code or data, please cite:
 @misc{kanaparthy2025vlmfairness,
   title        = {Do {VLMs} Hallucinate Fairly? Auditing Racial Bias in Vision-Language Model Outputs},
   author       = {Kanaparthy, Chidroopa},
-  year         = {2025},
-  note         = {Workshop paper, AI4GOOD @ NeurIPS 2025 / VLM4RWD @ ECCV 2025},
+  year         = {2026},
+  note         = {Workshop paper, AI4GOOD @ NeurIPS 2026 / VLM4RWD @ NeurIPS 2026},
   url          = {https://github.com/Chidroopakanaparthy/VLM-fairness}
 }
 ```
