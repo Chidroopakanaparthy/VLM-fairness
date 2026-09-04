@@ -1,0 +1,49 @@
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Compiled / binaries ───────────────────────────────────────────────────────
+a.out
+*.o
+*.so
+
+# ── Large raw data (hosted on HuggingFace Datasets) ──────────────────────────
+# Full-run model outputs
+qwen_full_results.csv
+llava_next_full_results.csv
+
+# Phase 3 annotation sheets (~2–5 MB each)
+"VLM Phase 3 - annotator_A.csv"
+"VLM Phase 3 - kappa_shared.csv"
+Phase\ 3/annotation_annotator_A.csv
+Phase\ 3/annotation_annotator_B.csv
+Phase\ 3/annotation_kappa_shared.csv
+Phase\ 3/claims.csv
+Phase\ 3/llava_next_full_results.csv
+Phase\ 3/qwen_full_results.csv
+
+# results_data/ — local folder for raw inputs; not tracked
+results_data/
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
