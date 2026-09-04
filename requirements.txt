@@ -1,0 +1,36 @@
+# requirements.txt — VLM-fairness
+# Pinned to the versions used during analysis (September 2025).
+# Sensitive to version: p-values from scipy/statsmodels are version-dependent.
+# See PROTOCOL.md for the locked method details.
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# NOTE: VLM generation notebooks (rfw-phase-2-run.ipynb) were run on Kaggle GPU.
+# Two packages are Kaggle-environment only and not pip-installable:
+#   - qwen_vl_utils   (bundled in Kaggle's Qwen2.5-VL environment)
+#   - adaface / net   (AdaFace model; install from https://github.com/mk-minchul/AdaFace)
+# You do NOT need these to run scripts/run_analysis.py.
+
+# ── Core analysis (run_analysis.py + notebooks) ───────────────────────────────
+numpy==2.3.3
+pandas==2.3.3
+scipy==1.17.1
+statsmodels==0.15.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+
+# ── Deep learning (VLM generation notebooks) ─────────────────────────────────
+torch==2.12.0
+torchvision==0.27.0
+transformers==5.9.0
+Pillow==11.3.0
+opencv-python==5.0.0.93
+
+# ── Face verification ─────────────────────────────────────────────────────────
+insightface==1.0.1
+onnxruntime==1.29.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+gdown==6.1.0
+huggingface_hub==1.15.0
