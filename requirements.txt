@@ -1,5 +1,5 @@
 # requirements.txt — VLM-fairness
-# Pinned to the versions used during analysis (September 2025).
+# Pinned to the versions used during analysis (September 2026).
 # Sensitive to version: p-values from scipy/statsmodels are version-dependent.
 # See PROTOCOL.md for the locked method details.
 #
