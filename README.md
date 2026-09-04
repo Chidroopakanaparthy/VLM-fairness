@@ -158,7 +158,7 @@ python scripts/assign_annotators.py  # outputs metadata/pair_assignments.csv
 ## Models
 
 | Model | HuggingFace ID |
-|-------|---------------|
+|-------|---------------| 
 | LLaVA-NeXT-Mistral-7B | [`llava-hf/llava-v1.6-mistral-7b-hf`](https://huggingface.co/llava-hf/llava-v1.6-mistral-7b-hf) |
 | Qwen2.5-VL-7B-Instruct | [`Qwen/Qwen2.5-VL-7B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) |
 | ArcFace (verifier) | InsightFace `buffalo_l` |
