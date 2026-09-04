@@ -1,0 +1,7 @@
+Model,Prompt_Variant,Chi2,p_value,DoF,Significant,p_value_fdr,Significant_FDR,Best_Race,Best_Acc,Worst_Race,Worst_Acc
+LLaVA-NeXT-Mistral-7B,All,6.1663,0.103796,3,No,0.207592,No,Indian,0.6167,Caucasian,0.4667
+LLaVA-NeXT-Mistral-7B,V1: direct_feature_comparison,1.9382,0.585337,3,No,0.585337,No,Indian,0.6,Caucasian,0.4833
+LLaVA-NeXT-Mistral-7B,V2: chain_of_thought,4.6179,0.20201,3,No,0.303015,No,Indian,0.6333,Caucasian,0.45
+Qwen2.5-VL-7B-Instruct,All,7.7412,0.051674,3,No,0.155022,No,Caucasian,0.7083,African,0.55
+Qwen2.5-VL-7B-Instruct,V1: direct_feature_comparison,3.1187,0.373685,3,No,0.448422,No,Caucasian,0.6667,African,0.5333
+Qwen2.5-VL-7B-Instruct,V2: chain_of_thought,7.7778,0.050835,3,No,0.155022,No,Asian,0.7833,African,0.5667
